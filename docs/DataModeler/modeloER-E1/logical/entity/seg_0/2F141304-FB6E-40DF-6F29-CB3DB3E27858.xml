@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F141304-FB6E-40DF-6F29-CB3DB3E27858" name="HOSPITALIZACION">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:05:00 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>4EAEFA0A-EFC6-31C7-B572-C6AB22684245</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_inicio" id="D5F26961-BD6E-DF2C-2CD8-DD1D80E8F672">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:05:10 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin" id="FB53FB87-6D63-1E67-6E0D-04D4858E7534">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:05:16 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="7C2358AF-020F-B943-8D2F-FACAD46C7DCA">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:07:07 UTC</createdTime>
+<generatorID>F0CE50A4-06AA-6BC5-8495-AB18159FEF29</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>C68834ED-A312-F769-3310-2205EC764CC0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

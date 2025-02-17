@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE9FF05A-0F00-4077-796D-505CA321265A" name="CONSULTA_CONTROL">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:00:52 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>4EAEFA0A-EFC6-31C7-B572-C6AB22684245</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="motivo" id="73D8FDBF-5E5B-6087-A496-7B49EE3EB16E">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:45:33 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="evaluacion" id="67B0D717-FEAA-8E5B-8DBE-19759F979B73">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:25:05 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ajustes_tratamiento" id="E089C2B4-7AAB-3A5C-F360-35E5ACB782A4">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:30:59 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_20" directorySegmentName="seg_0" id="579ED0D4-8EE1-E07A-C2FF-8DF667CFABE3">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:28:41 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B113A0AC-2F29-9841-E847-1AF67A4F50C8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B1AA21B1-2E36-735B-F64F-4019726282DC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

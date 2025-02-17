@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3E6EEEE-1A1F-14EA-2BFA-7F09E7437D3C" name="ORDEN_SERVICIO">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:13:43 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="77BC31A4-22F8-BB46-67BA-132AF7577DFD">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:13:51 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="91EDE824-0BDB-5193-AFBC-C0DCD8C270E7">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:39:32 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="6473E77D-CE07-C6D0-D142-9922AB157732">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:13:55 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registroMedico" id="B9EAA0FF-1C3F-A183-3730-0D0ED06F9292">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:26:07 UTC</createdTime>
+<generatorID>1E951F5C-45C7-7224-F4C3-112D08B785D3</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>F316BD7A-F208-5433-3729-0CF66664628B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="5B1041FE-F0DB-1E3E-5A86-073A3571352E">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:27:14 UTC</createdTime>
+<generatorID>6FE7C1F7-3A6F-FEF0-0A1E-7CF33E27E616</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>21FCCC2A-4B87-65B9-672D-D9ADC8838DB5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="C8F53535-3F79-EE39-67A6-2EBF723083A7">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:28:31 UTC</createdTime>
+<generatorID>65DCA79A-FBAF-CB53-2F8B-E6037DD4B92F</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>843C6BF3-A20E-1F71-BA67-74132CC90684</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento" id="DF4DE9A7-188B-EFE0-E03A-24E11780B681">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:28:31 UTC</createdTime>
+<generatorID>65DCA79A-FBAF-CB53-2F8B-E6037DD4B92F</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>9D8CE97E-969B-2243-42FC-A9D61B653333</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A31CB558-4924-9EC1-D4EC-0AC89CB677C3" name="ORDEN_SERVICIO PK">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:13:54 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77BC31A4-22F8-BB46-67BA-132AF7577DFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

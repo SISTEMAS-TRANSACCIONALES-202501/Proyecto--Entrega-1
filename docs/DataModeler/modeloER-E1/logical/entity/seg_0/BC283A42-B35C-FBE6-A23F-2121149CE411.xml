@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC283A42-B35C-FBE6-A23F-2121149CE411" name="AFILIADO">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:15:43 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tipo_documento" id="9D8CE97E-969B-2243-42FC-A9D61B653333">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:15:49 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="843C6BF3-A20E-1F71-BA67-74132CC90684">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:15:54 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_" id="2F3D1F8E-B3AF-DF25-7561-9C2A3CD1B3A4">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:16:04 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="F4A51AB8-306E-1DA9-F44A-3E0D95371947">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:16:08 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="1009626D-F4EA-50B8-1B17-5B5E11413CB2">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:16:13 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="1E4992FF-9716-0101-D707-ECE4848D9834">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:16:27 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="CC270699-5BF1-D4B9-A75C-29CD4CBBD399">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:42:15 UTC</createdTime>
+<generatorID>7CE67FFB-5F7A-B989-2183-80F5C97752F2</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>E24CD695-C70A-296D-14FD-E4D91680E7B1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="55051C5B-21A3-38AD-64A8-95195100E829" name="AFILIADO PK">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:16:01 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>843C6BF3-A20E-1F71-BA67-74132CC90684</attributeRef>
+<attributeRef>9D8CE97E-969B-2243-42FC-A9D61B653333</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

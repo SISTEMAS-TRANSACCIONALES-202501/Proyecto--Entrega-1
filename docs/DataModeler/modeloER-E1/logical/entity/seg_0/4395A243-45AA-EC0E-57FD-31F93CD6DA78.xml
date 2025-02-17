@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4395A243-45AA-EC0E-57FD-31F93CD6DA78" name="MEDICO">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:09:12 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="registroMedico" id="F316BD7A-F208-5433-3729-0CF66664628B">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:09:20 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="AA9DC750-49CC-F182-0D56-C3AB88D19169">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:09:49 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento" id="16F49327-A818-8B16-F011-94CB942403D5">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:09:36 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="9072A946-9A37-3FD5-6E83-574004A5D9D8">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:09:24 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad" id="A754BA72-782C-F806-4E87-5A06B7DF621D">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:11:09 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="861D1B3C-8B8D-6899-E11D-AEF80A89086B">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:40:11 UTC</createdTime>
+<generatorID>DFB0891B-41BB-4EDF-EA9B-C49E4BDC38E1</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>C68834ED-A312-F769-3310-2205EC764CC0</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DC4DD7F3-80D9-3E83-2295-4EB25787254F" name="MEDICO PK">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:09:27 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F316BD7A-F208-5433-3729-0CF66664628B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

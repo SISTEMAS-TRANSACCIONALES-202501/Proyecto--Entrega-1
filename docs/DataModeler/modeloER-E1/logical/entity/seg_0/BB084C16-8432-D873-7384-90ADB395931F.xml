@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB084C16-8432-D873-7384-90ADB395931F" name="BENEFICIARIO">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:17:28 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BC283A42-B35C-FBE6-A23F-2121149CE411</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="parentezco" id="DA3A171C-8CEB-9017-746B-94B4483879B2">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:17:44 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="DC8D7452-59FF-6521-4289-161A9BFD0704">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:35:52 UTC</createdTime>
+<generatorID>F6BE0502-F9AE-88C8-DCB2-E61CF9701CEF</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>843C6BF3-A20E-1F71-BA67-74132CC90684</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento" id="40F030C6-0FC2-151B-F918-41CB95526763">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:35:52 UTC</createdTime>
+<generatorID>F6BE0502-F9AE-88C8-DCB2-E61CF9701CEF</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>9D8CE97E-969B-2243-42FC-A9D61B653333</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

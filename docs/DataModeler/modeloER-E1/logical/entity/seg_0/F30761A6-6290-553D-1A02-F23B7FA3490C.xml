@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F30761A6-6290-553D-1A02-F23B7FA3490C" name="RECETA">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:18:40 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3DABC15C-6E8B-4510-6F09-F5CBF1329F79">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:19:56 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afiliado (relacion)" id="44CC469B-A48B-9955-D086-273C061312B3">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:49:25 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="3AC006F2-4BD7-06B3-3105-E494AE5E2238">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:50:32 UTC</createdTime>
+<generatorID>AADE8CEE-0377-0C07-F30A-935AA41E77F6</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>21FCCC2A-4B87-65B9-672D-D9ADC8838DB5</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="969A77B9-15A4-553C-EE73-5566A67A0532" name="RECETA PK">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:20:03 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DABC15C-6E8B-4510-6F09-F5CBF1329F79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

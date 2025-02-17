@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA9B29E1-774F-3A48-3F22-5C99EF83E497" name="IPS">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:07:51 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nit" id="C68834ED-A312-F769-3310-2205EC764CC0">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:08:02 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="CA8C7069-5885-BD26-F13A-56F54A0F9B48">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:08:06 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="CDD560F5-B9B5-7A5C-8849-4E63DD7CDF02">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:08:12 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="02CB9B25-01C3-3127-7CFA-A8151A93EC61">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:08:17 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="20DFF432-6F91-DFC8-805F-D3C561088CDF">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:47:30 UTC</createdTime>
+<generatorID>C54F3FF4-B0A1-9891-F2A8-9462E3AC5400</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>E24CD695-C70A-296D-14FD-E4D91680E7B1</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4474BB8D-3791-7FDF-19C6-3D80827526A8" name="IPS PK">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:08:06 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C68834ED-A312-F769-3310-2205EC764CC0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

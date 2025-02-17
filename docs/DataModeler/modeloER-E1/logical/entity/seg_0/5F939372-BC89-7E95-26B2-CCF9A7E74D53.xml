@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F939372-BC89-7E95-26B2-CCF9A7E74D53" name="CONSULTA_MEDICOGENERAL">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:20:11 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>4EAEFA0A-EFC6-31C7-B572-C6AB22684245</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="motivo" id="995E7C48-0E9B-ADF4-4D79-D1FD10B9A219">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 07:45:24 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="89F85BA3-1BC8-3058-09A8-448774FD99BD">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:32:52 UTC</createdTime>
+<generatorID>4A5F115A-29A5-E395-3559-5EA56E2C768F</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>843C6BF3-A20E-1F71-BA67-74132CC90684</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento" id="A4E47B86-8B52-6BE0-459F-2CA83F35EBF0">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:32:52 UTC</createdTime>
+<generatorID>4A5F115A-29A5-E395-3559-5EA56E2C768F</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>9D8CE97E-969B-2243-42FC-A9D61B653333</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registroMedico" id="3456F012-2BEA-FA1F-4D72-CE66E593749D">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:33:44 UTC</createdTime>
+<generatorID>BFE84DBB-2287-8DF3-85B5-A18221900C20</generatorID>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<referedAttribute>F316BD7A-F208-5433-3729-0CF66664628B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="evaluacion" id="77314176-02A3-6EEA-2652-54F912FCF7E5">
+<createdBy>monin</createdBy>
+<createdTime>2025-02-17 06:52:21 UTC</createdTime>
+<ownerDesignName>modeloER-E1</ownerDesignName>
+<engineerTo>
+<item key="6A8BADBF-6B91-9856-4C50-8FB968195DCF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
